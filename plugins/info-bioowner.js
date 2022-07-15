@@ -1,13 +1,13 @@
 let handler = async (m, { conn }) => {
 let ppown = await conn.profilePictureUrl(nomorown + '@s.whatsapp.net', 'image').catch(_ => hwaifu[1]) 
 let teksbio = `*───────[ BIODATA OWNER ]───────*
-*💌 Nama* : Sad-Bot
-*✉️ Nama RL* : Fahri
+*💌 Nama* : YamatoBotz
+*✉️ Nama RL* : Manusia
 *♂️ Gender* : Laki - laki
 *🕋 Agama* : Islam
-*⏰ Tanggal lahir* : 10 Juni 2007
-*🎨 Umur* : 15
-*🧮 Kelas* : 9
+*⏰ Tanggal lahir* : Undefined
+*🎨 Umur* : Undefined
+*🧮 Kelas* : Undefined
 *🧩 Hobby* : Nonton Hanime, Chatting, Recode script bot
 *💬 Sifat* : Idiot, Tidak Ramah, Kanjut, Prik, Pedofil
 *🗺️ Tinggal* : Indo, Riau, Indragiri Hulu, Air Molek
@@ -15,10 +15,10 @@ let teksbio = `*───────[ BIODATA OWNER ]───────*
 *💔 Benci* : autis, anak epep, seleb
 
 *───────[ SOSIAL MEDIA ]───────*
-*📷 instagran* : @bot_whangsaf
-*🇫  Facebook* : Adison Fahri
-*🏮 Chanel Youtube* : Papah-Chan
-*🐈 Github:* FahriAdison
+*📷 instagran* : Gak Punya Ig Asyu-_
+*🇫  Facebook* : Gak Punya Fb-_
+*🏮 Chanel Youtube* : Gak Punya-_
+*🐈 Github:* Naruto-Senpaiz
 
 `
 conn.sendHydrated(m.chat, teksbio, wm, ppown, "wa.me/" + nomorown, "💬 ᴄʜᴀᴛs", null,null, [["ᴅᴏɴᴀsɪ", '.donasi'], [null, null],[null,null]], m)
